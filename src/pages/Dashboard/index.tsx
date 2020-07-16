@@ -66,6 +66,7 @@ const Dashboard: React.FC = () => {
         if (theFood.id === id) {
           return response.data;
         }
+        return theFood;
       });
       setFoods(findFood);
     },
